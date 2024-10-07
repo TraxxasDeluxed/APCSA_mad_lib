@@ -37,7 +37,16 @@ class APCSA_mad_lib {
 
             String word = scanner.nextLine();
             madlib = madlib.replace(angleLocator, word);
+            // not using the replace method 
+            //openIndex = madlib.indexOf("<");
+            //closeIndex = madlib.indexOf("<");
+            // word = madlib.indexOf(openIndex+1,closeIndex);
+            //System.out.println("Give me a"+word);
 
+            // userInput = Scanner.nextline();
+            // String firstPart = madlib.substring(0,openIndex);
+            // String lastPart = = madlib.substring(0,closeIndex+1);
+            // madlib = firstPart+userInput+lastInput;
         }
         // prints the output
         System.out.println(madlib);
